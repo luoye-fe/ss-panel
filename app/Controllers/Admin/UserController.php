@@ -14,7 +14,7 @@ class UserController extends AdminController
     {
         $pageNum = 1;
         if (isset($request->getQueryParams()["page"])) {
-            $pageNum = $request->getQueryParam()["page"];
+            $pageNum = $request->getQueryParams()["page"];
         }
         $users = User::paginate(15, ['*'], 'page', $pageNum);
         $users->setPath('/admin/user');
