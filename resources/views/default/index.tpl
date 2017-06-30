@@ -5,6 +5,11 @@
         <h1 class="header center orange-text">{$config["appName"]}</h1>
         <div class="row center">
             <h5 class="header col s12 light">轻松科学上网   保护个人隐私</h5>
+	    {if $user -> isLogin}
+	    <h5 class="header col s12 light">低调扩散</h5>
+	    {else}
+	    <h5 class="header col s12 light">注册需邀请码，请<a href="/code" target="_blank">点击</a>获取邀请码或联系微信 l842891024</h5>
+	    {/if}
             {$homeIndexMsg}
         </div>
         {if $user->isLogin}
@@ -73,7 +78,8 @@
     <br><br>
 
     <div class="section">
-
+	<h5 class="header col s12 light" style="text-align: center;">打赏杯咖啡吧各位老爷</h5>
+	<img style="display: block;margin: 0 auto;width: 300px;height: 300px;" src="https://s10.mogucdn.com/mlcdn/c45406/170622_4244lih6d3kj41214ak80f8hc419a_509x509.png" />
     </div>
 </div>
 {include file='footer.tpl'}
