@@ -1,3 +1,4 @@
+
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
@@ -1339,7 +1340,6 @@
                 "phpmailer/phpmailer": "~5.2",
                 "predis/predis": "~1.0",
                 "slim/csrf": "0.5.*",
-                "slim/slim": "^3.0",
                 "slim/twig-view": "~2.0",
                 "smarty/smarty": "~3.1",
                 "vlucas/phpdotenv": "~2.1",
@@ -4030,3 +4030,4 @@
     "platform": [],
     "platform-dev": []
 }
+

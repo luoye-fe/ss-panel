@@ -8,7 +8,7 @@
 	    {if $user -> isLogin}
 	    <h5 class="header col s12 light">低调扩散</h5>
 	    {else}
-	    <h5 class="header col s12 light">注册需邀请码，请<a href="/code" target="_blank">点击</a>获取邀请码或联系微信 l842891024</h5>
+	    <h5 class="header col s12 light">注册需邀请码，请<a href="/code" target="_blank"> 点击 </a>获取邀请码或发送邮件至 <a href="mailto:admin@luoyefe.com">admin@luoyefe.com</a> 获取</h5>
 	    {/if}
             {$homeIndexMsg}
         </div>
